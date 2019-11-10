@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+ 
+  background-color: rgb(1, 107, 48);
+  height: 50px; 
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+.container{
+    display: flex;
+    justify-content: center; 
+}
+
+nav a {
+    
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  nav a:hover {
+    background-color: rgb(231, 216, 5);
+    color: black;
+  }
+section {
+    margin: 10px 50px;
+    text-align: center;
+}
+.set1{
+    height: 100vh;
+}
+
+.set2{
+    height: 100vh;
+}

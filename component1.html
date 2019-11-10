@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS style -->
+    <link rel="stylesheet" href="component1.css">
+    <title>Top Navbar</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="container">
+
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+
+        </div>
+    </nav>
+
+    <section class="set1">
+        <h2>section 1</h2>
+    </section>
+
+    <section class="set2">
+        <h2>section 2</h2>
+    </section>
+
+
+    <script>
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-50px";
+          }
+        }
+        </script>
+</body>
+</html>
